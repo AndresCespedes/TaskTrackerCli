@@ -3,7 +3,7 @@ export const createTask = (description, id) => {
     return {
         id,
         description,
-        status: 'TODO',
+        status: 'todo',
         createdAt: now,
         updatedAt: now,
     }
