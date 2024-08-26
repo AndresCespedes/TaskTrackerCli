@@ -6,7 +6,13 @@
   "scripts": {
     "start": "node src/cli/index.js"
   },
+  "bin": {
+    "task-cli": "src/cli/index.js"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^10.0.0"
+  }
 }
